@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.ndviet</groupId>
+    <artifactId>test-webdriver-downloader</artifactId>
+    <name>Test WebDriver Downloader</name>
+    <version>${revision}</version>
+
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <revision>1.0.0-SNAPSHOT</revision>
+        <webdriverextensions.version>3.11.2</webdriverextensions.version>
+        <webdriverextensions-maven-plugin.version>3.4.0</webdriverextensions-maven-plugin.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.github.webdriverextensions</groupId>
+            <artifactId>webdriverextensions</artifactId>
+            <version>${webdriverextensions.version}</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.github.webdriverextensions</groupId>
+                <artifactId>webdriverextensions-maven-plugin</artifactId>
+                <version>${webdriverextensions-maven-plugin.version}</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>install-drivers</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <proxyId/>
+                    <keepDownloadedWebdrivers/>
+                    <pluginWorkingDirectory/>
+                    <installationDirectory>${project.basedir}/Drivers</installationDirectory>
+                    <repositoryUrl>file:///${basedir}/driver-repository.json</repositoryUrl>
+                    <drivers/>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
