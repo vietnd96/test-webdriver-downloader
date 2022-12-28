@@ -1,6 +1,5 @@
 {
   "drivers": [
-    /* Begin defination of Selenium Server download */
     {
       "name": "selenium-server",
       "platform": "windows",
@@ -35,7 +34,6 @@
       "url": "https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.7.0/selenium-server-4.7.2.jar",
       "customFileName": "selenium-server"
     },
-    /* End defination of Selenium Server download */
     {
       "name": "chromedriver",
       "platform": "windows",
