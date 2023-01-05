@@ -1,3 +1,5 @@
+## Introduction
+
 WebDriver Extensions module is a wonderful library addition to the Selenium scripting practice.<br>
 It facilitates multiple browser execution, automatic driver download. For more
 details: https://webdriverextensions.github.io/webdriverextensions-maven-plugin/index.html <br><br>
@@ -14,3 +16,8 @@ java -jar selenium-server hub
 ---
 java -jar selenium-server node --port 5555
 ```
+
+## Referrence
+
+A sample project with entire repositories together for the test execution.<br>
+* [fs-test-automation](https://github.com/vietnd96/fs-test-automation)
