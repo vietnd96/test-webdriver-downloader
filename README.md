@@ -21,4 +21,4 @@ java -jar selenium-server node --port 5555
 
 A sample project with entire repositories together for the test execution.<br>
 
-* [fs-test-automation](https://github.com/vietnd96/fs-test-automation)
+* [test-automation-project](https://github.com/vietnd96/test-automation-project)
