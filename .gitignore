@@ -13,6 +13,7 @@ Drivers
 *.iws
 *.iml
 *.ipr
+**/.flattened-pom.xml
 
 ### Eclipse ###
 .apt_generated
