@@ -15,8 +15,12 @@
     <name>Test WebDriver Downloader</name>
     <version>${revision}</version>
     <description>Utility to download WebDriver for Selenium test execution.</description>
-    <url>https://${github.url}/${github.organization}/${project.artifactId}/tree/${github.branch}</url>
+    <url>https://${github.url}/${github.organization}/${github.repository}/tree/${github.branch}</url>
     <packaging>pom</packaging>
+
+    <properties>
+        <github.repository>test-webdriver-downloader</github.repository>
+    </properties>
 
     <licenses>
         <license>
@@ -38,10 +42,10 @@
     </developers>
 
     <scm>
-        <connection>scm:git:git@${github.url}:${github.organization}/${project.artifactId}.git</connection>
-        <developerConnection>scm:git:ssh://git@${github.url}:${github.organization}/${project.artifactId}.git
+        <connection>scm:git:git@${github.url}:${github.organization}/${github.repository}.git</connection>
+        <developerConnection>scm:git:ssh://git@${github.url}:${github.organization}/${github.repository}.git
         </developerConnection>
-        <url>https://${github.url}/${github.organization}/${project.artifactId}/tree/${github.branch}</url>
+        <url>https://${github.url}/${github.organization}/${github.repository}/tree/${github.branch}</url>
     </scm>
 
     <dependencies>
