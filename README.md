@@ -17,7 +17,7 @@ java -jar selenium-server hub
 java -jar selenium-server node --port 5555
 ```
 
-## Referrence
+## Reference
 
 A sample project with entire repositories together for the test execution.<br>
 
