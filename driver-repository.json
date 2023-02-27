@@ -4,16 +4,16 @@
       "name": "selenium-server",
       "platform": "windows",
       "bit": "64",
-      "version": "4.7.2",
-      "url": "https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.7.0/selenium-server-4.7.2.jar",
+      "version": "4.8.1",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.8.0/selenium-server-4.8.1.jar",
       "customFileName": "selenium-server"
     },
     {
       "name": "selenium-server",
       "platform": "linux",
       "bit": "64",
-      "version": "4.7.2",
-      "url": "https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.7.0/selenium-server-4.7.2.jar",
+      "version": "4.8.1",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.8.0/selenium-server-4.8.1.jar",
       "customFileName": "selenium-server"
     },
     {
@@ -21,8 +21,8 @@
       "platform": "mac",
       "bit": "64",
       "arch": "amd64",
-      "version": "4.7.2",
-      "url": "https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.7.0/selenium-server-4.7.2.jar",
+      "version": "4.8.1",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.8.0/selenium-server-4.8.1.jar",
       "customFileName": "selenium-server"
     },
     {
@@ -30,9 +30,39 @@
       "platform": "mac",
       "bit": "64",
       "arch": "aarch64",
-      "version": "4.7.2",
-      "url": "https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.7.0/selenium-server-4.7.2.jar",
+      "version": "4.8.1",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.8.0/selenium-server-4.8.1.jar",
       "customFileName": "selenium-server"
+    },
+    {
+      "name": "chromedriver",
+      "platform": "windows",
+      "bit": "32",
+      "version": "110.0.5481.77",
+      "url": "https://chromedriver.storage.googleapis.com/110.0.5481.77/chromedriver_win32.zip"
+    },
+    {
+      "name": "chromedriver",
+      "platform": "mac",
+      "bit": "64",
+      "arch": "amd64",
+      "version": "110.0.5481.77",
+      "url": "https://chromedriver.storage.googleapis.com/110.0.5481.77/chromedriver_mac64.zip"
+    },
+    {
+      "name": "chromedriver",
+      "platform": "mac",
+      "bit": "64",
+      "arch": "aarch64",
+      "version": "110.0.5481.77",
+      "url": "https://chromedriver.storage.googleapis.com/110.0.5481.77/chromedriver_mac_arm64.zip"
+    },
+    {
+      "name": "chromedriver",
+      "platform": "linux",
+      "bit": "64",
+      "version": "110.0.5481.77",
+      "url": "https://chromedriver.storage.googleapis.com/110.0.5481.77/chromedriver_linux64.zip"
     },
     {
       "name": "chromedriver",
