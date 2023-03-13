@@ -16,13 +16,13 @@ When all drivers and Selenium Server are downloaded, perform to start Hub and No
 1. Clone repository "test-parent-pom" (**mandatory**)
 
 ```shell
-git clone git@github.com:vietnd96/test-parent-pom.git
+git clone git@github.com:ndviet/test-parent-pom.git
 ```
 
 2. Clone this repository
 
 ```shell
-git clone git@github.com:vietnd96/test-webdriver-downloader.git
+git clone git@github.com:ndviet/test-webdriver-downloader.git
 ```
 
 3. Build the project to trigger the downloading
